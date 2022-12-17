@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasfounkeu/forkify.git"
+  },
+  "author": "Jonas Founkeu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasfounkeu/forkify/issues"
+  },
+  "homepage": "https://github.com/jonasfounkeu/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.56.2"
+  }
+}
